@@ -1,0 +1,44 @@
+body {
+  font: 16px sans-serif;
+  background-color: #000000;
+  background-image: url(PWD/image/pattern.jpg);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block; /* biar sebaris*/
+  margin-top: 5px;  /* biar berjarak sedikit antar baris*/
+  margin-right: 5px; /* biar berjarak sama sebelahnya*/
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 3px; 
+}
+
+.header a:hover {
+  background-color: lightskyblue; /* biar waktu kursornya diarahin dia berubah */
+  color: white;
+}
+
+.cover {
+  height: 800px;
+  background-image: url(image/favorite.webp);
+  background-size: cover;
+  border-top: 5px ;
+}
