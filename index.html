@@ -9,19 +9,66 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="judul">My Favorite Things</h1>
-            <ul>
-            <li><a href="film">Film</a></li>
-            <li><a href="musik">Musik</a></li>
-            <li><a href="game">Game</a></li>
-            <li><a href="food&drink">Food & Drink</a></li>
-            </ul>
-        </div>
-        <div class="cover">
+            <nav class="navbar">    
+                <a href="#home"><h1 class="judul">My Favorite Things</h1></a>
+                <div class="nav-links">
+                    <a href="#film">Film</a>
+                    <a href="#musik">Musik</a>
+                    <a href="#game">Game</a>
+                    <a href="#food&drink">Food & Drink</a>
+                </div>
+            </nav>
         </div>
     </div>
+    <section class="home" id="home">
+        <div class="cover">
+        </div>
+    </section>
+    <section class="film" id="film"> <!--Halaman Film-->
+        <main class="content">
+            <h2>My Favorite Movie</h2>
+        
+            <div class="movies-container">
+                <div class="movie">
+                    <img src="image/film1.jpg" alt="film1" width="250" height="250">
+                    <div class="movie-info">
+                        <h3 class="detail_film">Sell Your Haunted House</h3>
+                        <div class="rating">
+                            ★★★★☆
+                        </div>
+                        <a href="https://www.netflix.com/au/title/81609084?s=i&trkid=258593161&vlang=en" class="cta">Tonton Sekarang</a>
+                    </div>
+                </div>
+        
+                <div class="movie">
+                    <img src="image/film2.jpg" alt="film2" width="250" height="250">
+                    <div class="movie-info">
+                        <h3 class="detail_film">Mr. Queen</h3>
+                        <div class="rating">
+                            ★★★☆☆
+                        </div>
+                        <a href="https://www.netflix.com/au/title/81609084?s=i&trkid=258593161&vlang=en" class="cta">Tonton Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="musik" id="musik"><!--Halaman Musik-->
+        <main class="content">
+            <h2>My favorite Music</h2>
+            <video controls>
+                <source src="/video/blue.mp4" type="video/mp4">
+            </video>            
+        </main>
+    </section>
+    <section class="game" id="game">
+        <main class="content">
+            <h2>My Favorite Game</h2>
+        </main>
+    </section>
+    <section class="food&drink" id="food&drink"></section>
     <footer>
         <p>&copy; 2025 oleh Stevialda</p>
     </footer>
 </body>
-</html>
+</html>v
