@@ -27,12 +27,12 @@
     <section class="film" id="film"> <!--Halaman Film-->
         <main class="content">
             <h2>My Favorite Movie</h2>
-        
             <div class="movies-container">
                 <div class="movie">
                     <img src="image/film1.jpg" alt="film1" width="250" height="250">
                     <div class="movie-info">
                         <h3 class="detail_film">Sell Your Haunted House</h3>
+                        <p class="genre">Genre: Horror, Drama</p> <!-- Deskripsi item pake img dan p-->
                         <div class="rating">
                             ★★★★☆
                         </div>
@@ -44,6 +44,7 @@
                     <img src="image/film2.jpg" alt="film2" width="250" height="250">
                     <div class="movie-info">
                         <h3 class="detail_film">Mr. Queen</h3>
+                        <p class="genre">Genre: Comedy, Fantasy, Timetravel</p>
                         <div class="rating">
                             ★★★☆☆
                         </div>
@@ -53,20 +54,65 @@
             </div>
         </main>
     </section>
-    <section class="musik" id="musik"><!--Halaman Musik-->
+    
+    <section class="musik" id="musik"> <!--Halaman Musik-->
         <main class="content">
-            <h2>My favorite Music</h2>
+            <h2>My Favorite Music</h2>   
             <video controls>
                 <source src="video/blue.mp4" type="video/mp4">
-            </video>            
+            </video>   
+            <!-- Link Youtube dengan embed -->
+            <div class="youtube-container">
+                <h3>Watch on YouTube</h3>
+                <embed src="https://www.youtube.com/embed/IpFX2vq8HKw" width="560" height="315">
+            </div>  
         </main>
     </section>
-    <section class="game" id="game">
+    
+    <section class="game" id="game"> <!--Halaman Game-->
         <main class="content">
             <h2>My Favorite Game</h2>
+            <div class="game-container">
+                <div class="game">
+                    <img src="image/game1.jpg" alt="game1" width="250" height="250">
+                    <div class="game-info">
+                        <h3 class="detail_game">Airplane Chef</h3>
+                        <div class="rating">
+                            ★★★★☆
+                        </div>
+                        <a href="https://apps.apple.com/id/app/airplane-chefs-masak-seru/id1222489978?l=id" class="cta">Download</a>
+                    </div>
+                </div>
+        
+                <div class="game">
+                    <img src="image/game2.jpg" alt="game2" width="250" height="250">
+                    <div class="game-info">
+                        <h3 class="detail_game">Hayday</h3> 
+                        <div class="rating">
+                            ★★★☆☆
+                        </div>
+                        <a href="https://apps.apple.com/id/app/hay-day/id506627515?l=id" class="cta">Download</a>
+                    </div>
+                </div>
+            </div>
         </main>
     </section>
-    <section class="food&drink" id="food&drink"></section>
+    <section class="food-drink" id="food-drink">
+        <h2>My Favorite Food & Drink</h2>
+        <div class="food-drink-container">
+            <img src="image/drink1.jpg" alt="Chatime Brown Sugar Milk Tea" width="300" height="350">
+            <div class="food-drink-info">
+                <h3 class="detail-food-drink">Chatime Brown Sugar Milk Tea</h3>
+                <ul class="reasons"> <!--Membuat list mengapa saya menyukainya menggunakan ul-->
+                    <li>Rasanya manis </li>
+                    <li>Enak diminum saat sedang panas</li>
+                    <li>Membuat kita kembali bersemangat</li>
+                    <li>Lama habisnya</li>
+                    <li>Dekat</li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2025 oleh Stevialda</p>
     </footer>
